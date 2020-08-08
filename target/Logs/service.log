@@ -1,0 +1,48 @@
+2020-08-09 00:06:44.235 [main] INFO  initiateTests.initClass -
+                Lauching chrome browser
+2020-08-09 00:06:45.450 [main] INFO  initiateTests.initClass -
+                Created Browser
+2020-08-09 00:06:48.353 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-09 00:06:48.354 [main] INFO  reporting.ListenersImplementation -
+                bookTicketForRedBusTest case started
+2020-08-09 00:06:48.361 [main] INFO  reporting.ListenersImplementation -
+                bookTicketForRedBusTest case started
+2020-08-09 00:06:48.362 [main] INFO  tests.RedBusHomePageTest -
+                Running testcase bookTicketForRedBus
+2020-08-09 00:06:51.935 [main] INFO  pages.RedBusHomePage -
+                Entering Kash in from dropdown
+2020-08-09 00:06:52.702 [main] INFO  pages.RedBusHomePage -
+                Entering Amt in to dropdown
+2020-08-09 00:06:52.888 [main] INFO  pages.RedBusHomePage -
+                Entering today's date
+2020-08-09 00:07:08.760 [main] INFO  pages.RedBusHomePage -
+                Clicking on search button
+2020-08-09 00:07:13.971 [main] INFO  reporting.ListenersImplementation -
+                bookTicketForRedBusTestcase SUCCESS
+2020-08-09 00:07:13.971 [main] INFO  reporting.ListenersImplementation -
+                bookTicketForRedBusTestcase SUCCESS
+2020-08-09 00:07:15.829 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-09 00:07:15.831 [main] INFO  reporting.ListenersImplementation -
+                checkLogoOfHomePageTest case started
+2020-08-09 00:07:15.832 [main] INFO  reporting.ListenersImplementation -
+                checkLogoOfHomePageTest case started
+2020-08-09 00:07:15.833 [main] INFO  tests.RedBusHomePageTest -
+                Running testcase checkLogoOfHomePage
+2020-08-09 00:07:19.889 [main] INFO  reporting.ListenersImplementation -
+                checkLogoOfHomePageTestcase SUCCESS
+2020-08-09 00:07:19.889 [main] INFO  reporting.ListenersImplementation -
+                checkLogoOfHomePageTestcase SUCCESS
+2020-08-09 00:07:23.545 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-09 00:07:23.545 [main] INFO  reporting.ListenersImplementation -
+                checkTitleTest case started
+2020-08-09 00:07:23.546 [main] INFO  reporting.ListenersImplementation -
+                checkTitleTest case started
+2020-08-09 00:07:23.546 [main] INFO  tests.RedBusHomePageTest -
+                Running testcase checkTitle
+2020-08-09 00:07:28.065 [main] INFO  reporting.ListenersImplementation -
+                checkTitleTestcase SUCCESS
+2020-08-09 00:07:28.066 [main] INFO  reporting.ListenersImplementation -
+                checkTitleTestcase SUCCESS

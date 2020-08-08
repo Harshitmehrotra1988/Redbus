@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47837" started-at="2020-08-08T18:36:40Z" finished-at="2020-08-08T18:37:28Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47837" started-at="2020-08-08T18:36:40Z" finished-at="2020-08-08T18:37:28Z">
+      <class name="tests.RedBusHomePageTest">
+        <test-method status="PASS" signature="launchDriver()[pri:0, instance:tests.RedBusHomePageTest@62150f9e]" name="launchDriver" is-config="true" duration-ms="5210" started-at="2020-08-08T18:36:40Z" finished-at="2020-08-08T18:36:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:tests.RedBusHomePageTest@62150f9e]" name="launchURL" is-config="true" duration-ms="2886" started-at="2020-08-08T18:36:45Z" finished-at="2020-08-08T18:36:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="bookTicketForRedBus()[pri:0, instance:tests.RedBusHomePageTest@62150f9e]" name="bookTicketForRedBus" duration-ms="25617" started-at="2020-08-08T18:36:48Z" finished-at="2020-08-08T18:37:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTicketForRedBus -->
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:tests.RedBusHomePageTest@62150f9e]" name="launchURL" is-config="true" duration-ms="1858" started-at="2020-08-08T18:37:13Z" finished-at="2020-08-08T18:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="checkLogoOfHomePage()[pri:0, instance:tests.RedBusHomePageTest@62150f9e]" name="checkLogoOfHomePage" duration-ms="4057" started-at="2020-08-08T18:37:15Z" finished-at="2020-08-08T18:37:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogoOfHomePage -->
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:tests.RedBusHomePageTest@62150f9e]" name="launchURL" is-config="true" duration-ms="3654" started-at="2020-08-08T18:37:19Z" finished-at="2020-08-08T18:37:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:tests.RedBusHomePageTest@62150f9e]" name="checkTitle" duration-ms="4520" started-at="2020-08-08T18:37:23Z" finished-at="2020-08-08T18:37:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.RedBusHomePageTest@62150f9e]" name="closeDriver" is-config="true" duration-ms="0" started-at="2020-08-08T18:37:28Z" finished-at="2020-08-08T18:37:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- tests.RedBusHomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
