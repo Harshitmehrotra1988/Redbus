@@ -17,53 +17,42 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
+import com.aventstack.extentreports.ExtentReports;
+
 import managers.PropertyFileManager;
 import pages.BusHirePage;
 import pages.RedBusHomePage;
+import reporting.ExtentManager;
+import reporting.ReportingClass;
 import tests.RedBusHomePageTest;
 
 public class initClass {
 	
+
+	
 	private static final Logger LOGGER= LoggerFactory.getLogger(initClass.class);
 	
 	public static WebDriver driver;
-	protected RedBusHomePage homePage;
-	protected BusHirePage busHirePage;
+	protected static RedBusHomePage homePage;
+	protected static BusHirePage busHirePage;
+	public static ExtentReports report;
 
 	@BeforeClass
 	public void launchDriver() throws IOException
-	{String browserVariable=System.getenv("browserName");
-		//String browserVaribale=PropertyFileManager.getPropertyValue("config","browser");
-		if (browserVariable.equalsIgnoreCase("Chrome"))
-		{
-		ChromeOptions opt = new ChromeOptions();
-		opt.addArguments("--disable-notifications");
-	System.setProperty("webdriver.chrome.driver","src\\test\\resources\\drivers\\chromedriver_windows.exe");
-	
-	 driver = new ChromeDriver(opt);
-	 LOGGER.info("Lauching chrome browser");
-		}
-		else if (browserVariable.equalsIgnoreCase("FireFox"))
-		{
-			FirefoxOptions opt= new FirefoxOptions();
-			opt.addPreference("dom.webnotifications.enabled", false);
-			System.setProperty("webdriver.gecko.driver","src\\test\\resources\\drivers\\geckodriver.exe");
-			
-			 driver = new FirefoxDriver(opt);
-			 LOGGER.info("Lauching Firefox browser");
-		}
-		else
-		{
-			System.out.println("No Browser specified");
-		}
-	driver.manage().window().maximize();
-	
-	
-	driver.manage().timeouts().implicitlyWait(10 , TimeUnit.SECONDS);
-	 homePage= new RedBusHomePage(driver);
-	 busHirePage = new BusHirePage(driver);
+	{
+		
+		//This is update done in SReporting branch
+	 driver=WebDriverLaunch.getWindowDriver();
 	 
-	 LOGGER.info("Created Browser");
+	 createObjects();
+	 report= ExtentManager.setUp("Extent_Reports");
+	}
+	
+	public static void createObjects()
+	{
+		LOGGER.info("Created Objects of Pages");
+		 homePage= new RedBusHomePage(driver);
+		 busHirePage = new BusHirePage(driver);	
 	}
 	
 	@BeforeMethod
@@ -76,6 +65,7 @@ public class initClass {
 	public void closeDriver()
 	
 	{
-		//driver.close();
+			driver.close();
+			ReportingClass.putReport();
 	}
 }

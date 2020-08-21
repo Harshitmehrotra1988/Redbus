@@ -5,8 +5,8 @@
     <classes>
       <class name="tests.RedBusHomePageTest">
         <methods>
-          <include name="bookTicketForRedBus"/>
           <include name="launchURL"/>
+          <include name="checkLogoOfHomePage"/>
           <include name="closeDriver"/>
           <include name="launchDriver"/>
         </methods>

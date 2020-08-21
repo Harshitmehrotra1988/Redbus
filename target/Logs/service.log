@@ -46,3 +46,281 @@
                 checkTitleTestcase SUCCESS
 2020-08-09 00:07:28.066 [main] INFO  reporting.ListenersImplementation -
                 checkTitleTestcase SUCCESS
+2020-08-12 14:26:48.716 [main] INFO  initiateTests.WebDriverLaunch -
+                Lauching chrome browser
+2020-08-12 14:26:57.567 [main] INFO  initiateTests.initClass -
+                Created Objects of Pages
+2020-08-12 14:27:24.458 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 14:39:21.161 [main] INFO  initiateTests.WebDriverLaunch -
+                Lauching chrome browser
+2020-08-12 14:39:22.316 [main] INFO  initiateTests.initClass -
+                Created Objects of Pages
+2020-08-12 14:39:33.530 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 14:39:33.531 [main] INFO  reporting.ListenersImplementation -
+                bookTicketForRedBusTest case started
+2020-08-12 14:39:33.553 [main] INFO  reporting.ListenersImplementation -
+                bookTicketForRedBusTest case started
+2020-08-12 14:39:33.557 [main] INFO  tests.RedBusHomePageTest -
+                Running testcase bookTicketForRedBus
+2020-08-12 14:39:40.920 [main] INFO  reporting.ListenersImplementation -
+                bookTicketForRedBusTestcase FAILURE
+2020-08-12 14:39:40.926 [main] INFO  reporting.ListenersImplementation -
+                bookTicketForRedBusTestcase FAILURE
+2020-08-12 14:39:48.351 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 14:39:48.352 [main] INFO  reporting.ListenersImplementation -
+                checkLogoOfHomePageTest case started
+2020-08-12 14:39:48.356 [main] INFO  reporting.ListenersImplementation -
+                checkLogoOfHomePageTest case started
+2020-08-12 14:39:48.357 [main] INFO  reporting.ListenersImplementation -
+                checkLogoOfHomePageTestcase SKIPPED
+2020-08-12 14:39:48.360 [main] INFO  reporting.ListenersImplementation -
+                checkLogoOfHomePageTestcase SKIPPED
+2020-08-12 14:39:49.002 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 14:39:49.002 [main] INFO  reporting.ListenersImplementation -
+                checkTitleTest case started
+2020-08-12 14:39:49.009 [main] INFO  reporting.ListenersImplementation -
+                checkTitleTest case started
+2020-08-12 14:39:49.010 [main] INFO  tests.RedBusHomePageTest -
+                Running testcase checkTitle
+2020-08-12 14:39:54.101 [main] INFO  reporting.ListenersImplementation -
+                checkTitleTestcase SUCCESS
+2020-08-12 14:39:54.103 [main] INFO  reporting.ListenersImplementation -
+                checkTitleTestcase SUCCESS
+2020-08-12 14:40:00.947 [main] INFO  initiateTests.WebDriverLaunch -
+                Lauching chrome browser
+2020-08-12 14:40:02.103 [main] INFO  initiateTests.initClass -
+                Created Objects of Pages
+2020-08-12 14:40:08.026 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 14:40:08.066 [main] INFO  reporting.ListenersImplementation -
+                clickOnBusHiretabTest case started
+2020-08-12 14:40:08.068 [main] INFO  reporting.ListenersImplementation -
+                clickOnBusHiretabTest case started
+2020-08-12 14:40:14.539 [main] INFO  reporting.ListenersImplementation -
+                clickOnBusHiretabTestcase SUCCESS
+2020-08-12 14:40:14.547 [main] INFO  reporting.ListenersImplementation -
+                clickOnBusHiretabTestcase SUCCESS
+2020-08-12 14:42:16.245 [main] INFO  initiateTests.WebDriverLaunch -
+                Lauching chrome browser
+2020-08-12 14:42:17.505 [main] INFO  initiateTests.initClass -
+                Created Objects of Pages
+2020-08-12 14:42:20.641 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 14:42:20.642 [main] INFO  reporting.ListenersImplementation -
+                bookTicketForRedBusTest case started
+2020-08-12 14:42:20.665 [main] INFO  tests.RedBusHomePageTest -
+                Running testcase bookTicketForRedBus
+2020-08-12 14:42:22.071 [main] INFO  pages.RedBusHomePage -
+                Entering Kash in from dropdown
+2020-08-12 14:42:22.732 [main] INFO  pages.RedBusHomePage -
+                Entering Amt in to dropdown
+2020-08-12 14:42:22.910 [main] INFO  pages.RedBusHomePage -
+                Entering today's date
+2020-08-12 14:42:24.874 [main] INFO  pages.RedBusHomePage -
+                Clicking on search button
+2020-08-12 14:42:24.876 [main] INFO  reporting.ListenersImplementation -
+                bookTicketForRedBusTestcase SUCCESS
+2020-08-12 14:42:27.196 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 14:42:27.197 [main] INFO  reporting.ListenersImplementation -
+                checkLogoOfHomePageTest case started
+2020-08-12 14:42:27.201 [main] INFO  reporting.ListenersImplementation -
+                checkLogoOfHomePageTestcase SKIPPED
+2020-08-12 14:42:30.316 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 14:42:30.316 [main] INFO  reporting.ListenersImplementation -
+                checkTitleTest case started
+2020-08-12 14:42:30.318 [main] INFO  tests.RedBusHomePageTest -
+                Running testcase checkTitle
+2020-08-12 14:42:31.136 [main] INFO  reporting.ListenersImplementation -
+                checkTitleTestcase SUCCESS
+2020-08-12 14:42:53.016 [main] INFO  initiateTests.WebDriverLaunch -
+                Lauching chrome browser
+2020-08-12 14:42:54.152 [main] INFO  initiateTests.initClass -
+                Created Objects of Pages
+2020-08-12 14:42:59.239 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 14:42:59.240 [main] INFO  reporting.ListenersImplementation -
+                bookTicketForRedBusTest case started
+2020-08-12 14:42:59.248 [main] INFO  reporting.ListenersImplementation -
+                bookTicketForRedBusTest case started
+2020-08-12 14:42:59.249 [main] INFO  tests.RedBusHomePageTest -
+                Running testcase bookTicketForRedBus
+2020-08-12 14:42:59.918 [main] INFO  pages.RedBusHomePage -
+                Entering Kash in from dropdown
+2020-08-12 14:43:00.571 [main] INFO  pages.RedBusHomePage -
+                Entering Amt in to dropdown
+2020-08-12 14:43:00.749 [main] INFO  pages.RedBusHomePage -
+                Entering today's date
+2020-08-12 14:43:01.958 [main] INFO  pages.RedBusHomePage -
+                Clicking on search button
+2020-08-12 14:43:01.959 [main] INFO  reporting.ListenersImplementation -
+                bookTicketForRedBusTestcase SUCCESS
+2020-08-12 14:43:01.965 [main] INFO  reporting.ListenersImplementation -
+                bookTicketForRedBusTestcase SUCCESS
+2020-08-12 14:43:07.661 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 14:43:07.662 [main] INFO  reporting.ListenersImplementation -
+                checkLogoOfHomePageTest case started
+2020-08-12 14:43:07.664 [main] INFO  reporting.ListenersImplementation -
+                checkLogoOfHomePageTest case started
+2020-08-12 14:43:07.665 [main] INFO  reporting.ListenersImplementation -
+                checkLogoOfHomePageTestcase SKIPPED
+2020-08-12 14:43:07.669 [main] INFO  reporting.ListenersImplementation -
+                checkLogoOfHomePageTestcase SKIPPED
+2020-08-12 14:43:10.310 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 14:43:10.311 [main] INFO  reporting.ListenersImplementation -
+                checkTitleTest case started
+2020-08-12 14:43:10.313 [main] INFO  reporting.ListenersImplementation -
+                checkTitleTest case started
+2020-08-12 14:43:10.313 [main] INFO  tests.RedBusHomePageTest -
+                Running testcase checkTitle
+2020-08-12 14:43:13.160 [main] INFO  reporting.ListenersImplementation -
+                checkTitleTestcase SUCCESS
+2020-08-12 14:43:13.162 [main] INFO  reporting.ListenersImplementation -
+                checkTitleTestcase SUCCESS
+2020-08-12 14:43:18.004 [main] INFO  initiateTests.WebDriverLaunch -
+                Lauching chrome browser
+2020-08-12 14:43:19.142 [main] INFO  initiateTests.initClass -
+                Created Objects of Pages
+2020-08-12 14:43:24.646 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 14:43:24.646 [main] INFO  reporting.ListenersImplementation -
+                clickOnBusHiretabTest case started
+2020-08-12 14:43:24.648 [main] INFO  reporting.ListenersImplementation -
+                clickOnBusHiretabTest case started
+2020-08-12 14:43:25.761 [main] INFO  reporting.ListenersImplementation -
+                clickOnBusHiretabTestcase SUCCESS
+2020-08-12 14:43:25.763 [main] INFO  reporting.ListenersImplementation -
+                clickOnBusHiretabTestcase SUCCESS
+2020-08-12 18:19:14.569 [main] INFO  initiateTests.WebDriverLaunch -
+                Lauching chrome browser
+2020-08-12 18:19:15.952 [main] INFO  initiateTests.initClass -
+                Created Objects of Pages
+2020-08-12 18:19:54.581 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 18:19:54.640 [main] INFO  tests.RedBusHomePageTest -
+                Running testcase bookTicketForRedBus
+2020-08-12 18:20:13.974 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 18:20:15.573 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 18:20:15.577 [main] INFO  tests.RedBusHomePageTest -
+                Running testcase checkTitle
+2020-08-12 18:20:42.337 [main] INFO  initiateTests.WebDriverLaunch -
+                Lauching chrome browser
+2020-08-12 18:20:43.515 [main] INFO  initiateTests.initClass -
+                Created Objects of Pages
+2020-08-12 18:20:46.143 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 18:30:47.768 [main] INFO  initiateTests.WebDriverLaunch -
+                Lauching chrome browser
+2020-08-12 18:30:48.938 [main] INFO  initiateTests.initClass -
+                Created Objects of Pages
+2020-08-12 18:31:01.405 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 18:31:01.413 [main] INFO  tests.RedBusHomePageTest -
+                Running testcase bookTicketForRedBus
+2020-08-12 18:31:02.175 [main] INFO  pages.RedBusHomePage -
+                Entering Kash in from dropdown
+2020-08-12 18:31:02.957 [main] INFO  pages.RedBusHomePage -
+                Entering Amt in to dropdown
+2020-08-12 18:31:03.106 [main] INFO  pages.RedBusHomePage -
+                Entering today's date
+2020-08-12 18:31:21.143 [main] INFO  pages.RedBusHomePage -
+                Clicking on search button
+2020-08-12 18:31:22.062 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 18:31:22.903 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 18:31:22.904 [main] INFO  tests.RedBusHomePageTest -
+                Running testcase checkTitle
+2020-08-12 18:34:16.872 [main] INFO  initiateTests.WebDriverLaunch -
+                Lauching chrome browser
+2020-08-12 18:34:18.066 [main] INFO  initiateTests.initClass -
+                Created Objects of Pages
+2020-08-12 18:34:24.039 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 18:34:24.055 [main] INFO  tests.RedBusHomePageTest -
+                Running testcase bookTicketForRedBus
+2020-08-12 18:34:30.397 [main] INFO  pages.RedBusHomePage -
+                Entering Kash in from dropdown
+2020-08-12 18:34:31.287 [main] INFO  pages.RedBusHomePage -
+                Entering Amt in to dropdown
+2020-08-12 18:34:31.418 [main] INFO  pages.RedBusHomePage -
+                Entering today's date
+2020-08-12 18:34:32.887 [main] INFO  pages.RedBusHomePage -
+                Clicking on search button
+2020-08-12 18:34:35.760 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 18:34:39.592 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 18:34:39.595 [main] INFO  tests.RedBusHomePageTest -
+                Running testcase checkTitle
+2020-08-12 18:34:47.657 [main] INFO  initiateTests.WebDriverLaunch -
+                Lauching chrome browser
+2020-08-12 18:34:48.828 [main] INFO  initiateTests.initClass -
+                Created Objects of Pages
+2020-08-12 18:34:50.988 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 18:40:40.908 [main] INFO  initiateTests.WebDriverLaunch -
+                Lauching chrome browser
+2020-08-12 18:40:42.540 [main] INFO  initiateTests.initClass -
+                Created Objects of Pages
+2020-08-12 18:40:46.149 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 18:40:46.188 [main] INFO  tests.RedBusHomePageTest -
+                Running testcase bookTicketForRedBus
+2020-08-12 18:40:47.445 [main] INFO  pages.RedBusHomePage -
+                Entering Kash in from dropdown
+2020-08-12 18:40:50.133 [main] INFO  pages.RedBusHomePage -
+                Entering Amt in to dropdown
+2020-08-12 18:40:50.278 [main] INFO  pages.RedBusHomePage -
+                Entering today's date
+2020-08-12 18:40:51.580 [main] INFO  pages.RedBusHomePage -
+                Clicking on search button
+2020-08-12 18:40:53.695 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 18:40:54.432 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 18:40:54.443 [main] INFO  tests.RedBusHomePageTest -
+                Running testcase checkTitle
+2020-08-12 18:41:10.577 [main] INFO  initiateTests.WebDriverLaunch -
+                Lauching chrome browser
+2020-08-12 18:41:11.770 [main] INFO  initiateTests.initClass -
+                Created Objects of Pages
+2020-08-12 18:41:14.099 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 18:42:35.450 [main] INFO  initiateTests.WebDriverLaunch -
+                Lauching chrome browser
+2020-08-12 18:42:36.709 [main] INFO  initiateTests.initClass -
+                Created Objects of Pages
+2020-08-12 18:42:39.248 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 18:42:39.278 [main] INFO  tests.RedBusHomePageTest -
+                Running testcase bookTicketForRedBus
+2020-08-12 18:42:44.876 [main] INFO  pages.RedBusHomePage -
+                Entering Kash in from dropdown
+2020-08-12 18:42:45.529 [main] INFO  pages.RedBusHomePage -
+                Entering Amt in to dropdown
+2020-08-12 18:42:45.692 [main] INFO  pages.RedBusHomePage -
+                Entering today's date
+2020-08-12 18:42:46.823 [main] INFO  pages.RedBusHomePage -
+                Clicking on search button
+2020-08-12 18:42:47.465 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 18:42:51.714 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL
+2020-08-12 18:42:51.722 [main] INFO  tests.RedBusHomePageTest -
+                Running testcase checkTitle
+2020-08-12 18:43:03.302 [main] INFO  initiateTests.WebDriverLaunch -
+                Lauching chrome browser
+2020-08-12 18:43:04.452 [main] INFO  initiateTests.initClass -
+                Created Objects of Pages
+2020-08-12 18:43:09.648 [main] INFO  initiateTests.initClass -
+                Lauching  RedBus URL

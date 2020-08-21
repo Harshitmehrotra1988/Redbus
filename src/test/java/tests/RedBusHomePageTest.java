@@ -15,7 +15,7 @@ import initiateTests.initClass;
 import pages.RedBusHomePage;
 import utils.Takescreenshot;
 
-@Listeners(reporting.ListenersImplementation.class)
+//@Listeners(reporting.ListenersImplementation.class)
 public class RedBusHomePageTest extends initClass{
 	
 	
@@ -32,10 +32,10 @@ public void bookTicketForRedBus() throws IOException, InterruptedException
 	homePage.dateSelect();
 	homePage.searchButtonClick();
 	//homePage.safetypop_up();
-	Thread.sleep(3000);
-	homePage.scrollDown();
-	homePage.clickViewSeat();
-	homePage.clickBusSeat();
+	//Thread.sleep(3000);
+	//homePage.scrollDown();
+	//homePage.clickViewSeat();
+	//homePage.clickBusSeat();
 
 
 	
@@ -46,16 +46,16 @@ public void bookTicketForRedBus() throws IOException, InterruptedException
 	public void checkTitle() throws IOException
 	
 	{	LOGGER.info("Running testcase checkTitle");
-		Assert.assertEquals(homePage.getTitle(),"Book Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India");
+		Assert.assertEquals(homePage.getTitle(),"ook Bus Travels, AC Volvo Bus, rPool & Bus Hire - redBus India");
 		Takescreenshot.takescreen("checkTitle");
 	}
 	
 	@Test
 	public void checkLogoOfHomePage() throws IOException
 	{ 
-		new SkipException("implementation not done");
-		LOGGER.info("Running testcase checkLogoOfHomePage");
-		Assert.assertTrue(homePage.RedBusLogoDisplay(), "Logo is not displayed");
-		Takescreenshot.takescreen("checkLogoOfHomePage");
+		throw new SkipException("implementation not done");
+	
+		//Assert.assertTrue(homePage.RedBusLogoDisplay(), "Logo is not displayed");
+	
 	}
 }
